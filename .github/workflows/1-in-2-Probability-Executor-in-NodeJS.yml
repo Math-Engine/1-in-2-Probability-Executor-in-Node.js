@@ -1,7 +1,7 @@
 name: 1-in-2-Probability-Executor-in-Node.js
 on:
   schedule:
-   - cron: '*/10 * * * *'
+   - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       Execution_Count:
