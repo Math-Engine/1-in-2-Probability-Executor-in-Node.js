@@ -6,7 +6,7 @@ on:
     inputs:
       Execution_Count:
         description: 'Execution Count'
-        required: true
+        required: false
         default: '10000000'
         type: string
 
